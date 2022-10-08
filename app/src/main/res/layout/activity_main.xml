@@ -13,11 +13,22 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/prog"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"/>
+
+        <!--Button
+            android:layout_width="wrap_content"
+            android:id="@+id/buttonPanel"
+            android:layout_height="wrap_content"/>-->
+
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:id="@+id/recyclerView"
             android:padding="10dp"
             android:layout_height="match_parent"/>
-
     </RelativeLayout>
 </layout>
